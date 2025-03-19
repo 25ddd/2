@@ -1,0 +1,136 @@
+/* 기본 설정 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #5C3D31;
+  background-color: #FFF5FA;
+}
+
+/* 전체 페이지를 감싸는 레이아웃 */
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* 왼쪽 사이드바 */
+.sidebar {
+  width: 250px;
+  background: #FFDCDC;
+  padding: 20px;
+  text-align: left;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: #5C3D31;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  background: transparent;
+}
+
+/* 메인 콘텐츠 */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* 푸터 하단 고정 */
+footer {
+  background-color: #FFDCDC;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/* NEW 아이콘 */
+.new-icon {
+  background: #87CEFA; /* 하늘색 */
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* 게시판 제목 & 날짜 간격 조정 */
+.post-date {
+  margin-left: 15px;
+  color: #A85D5D;
+}
+
+/* 동맹 배너 */
+.ally-banner {
+  width: 120px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* 웹박수 스타일 */
+#guestbookForm {
+  margin-bottom: 20px;
+}
+
+#guestbookMessage {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+.new-icon, .new-icon-placeholder {
+  display: inline-block;
+  width: 32px; // 고정 너비 설정
+  height: 16px; // 적절한 높이 설정
+  text-align: center;
+  margin-right: 10px; // 제목과의 간격 조절
+}
+
+.new-icon {
+  background: #87CEFA; // 하늘색
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-right: 15px; /* 오른쪽 여백을 늘림 */
+}
+
+/* 게시글 목록 스타일 */
+li {
+  margin-bottom: 10px; /* 각 목록 아이템 사이의 간격 */
+}
+
+/* 게시판 제목 스타일 조정 */
+a {
+  margin-left: 10px; /* 제목 왼쪽 여백을 조정 */
+}
+
+.post-date {
+  margin-left: 15px;
+  color: #A85D5D;
+}
+}
+
+/* 기존의 CSS 코드에 추가 수정 없음, 다음은 기존 코드 예시 */
+/* .post-date { ... } */

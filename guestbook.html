@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>웹박수 - 저장소</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="sidebar">
+      <h1><a class="site-title">저장소</a>      </h1>
+      <a href="index.html">홈</a>
+      <a href="board.html">게시판</a>
+      <a href="guestbook.html">웹박수</a>
+    </nav>
+
+    <main class="full-center content">
+      <h2>🌸 웹박수 🌸</h2>
+      <p>익명으로 메시지를 남길 수 있어요!</p>
+
+      <form id="guestbookForm">
+        <textarea id="guestbookMessage" placeholder="응원의 메시지를 남겨주세요!" required></textarea>
+        <br>
+        <label>
+          <input type="checkbox" id="secretCheck"> 비밀글로 남기기
+        </label>
+        <br>
+        <button type="submit">메시지 남기기</button>
+      </form>
+
+      <h3>💌 남겨진 메시지</h3>
+      <ul id="messageList" class="no-bullets"></ul>
+    </main>
+
+    <footer>
+      <p>© 2025 저장소</p>
+    </footer>
+  </div>
+</body>
+</html>

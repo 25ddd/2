@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>게시글 보기 - My Homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="sidebar">
+      <h1><a class="site-title">저장소</a>      </h1>
+      <a href="index.html">홈</a>
+      <a href="board.html">게시판</a>
+      <a href="guestbook.html">웹박수</a>
+    </nav>
+
+    <main class="board-container content">
+      <h2 id="postTitle">제목</h2>
+      <p id="postContent">내용</p>
+      <h3>댓글</h3>
+      <form id="commentForm">
+        <textarea id="commentText" placeholder="댓글을 입력하세요" required></textarea>
+        <button type="submit">댓글 작성</button>
+      </form>
+      <div id="commentList">
+        <!-- 댓글 목록이 여기에 추가됨 -->
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 저장소</p>
+    </footer>
+  </div>
+</body>
+</html>
